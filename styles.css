@@ -1,0 +1,430 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #383737;
+    margin: 10px;
+}
+
+.main-menu-logo {
+    position: fixed;
+    top: 0;
+    z-index: 100;
+    width: 100%;
+    background: #4949494f;
+}
+
+.navbar-brand {
+    font-size: 30px;
+    font-weight: bold;
+    color: #000000 !important;
+}
+
+.nav-item a {
+    display: block;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 0px 20px !important;
+    color: #080808 !important;
+}
+
+.nav-item a:hover {
+    color: #d8d6d6 !important;
+}
+
+
+.si,
+.lo {
+    border: none;
+    padding: 10px 20px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.si {
+    background-color: #1b6be2;
+    color: rgb(255, 255, 255);
+}
+
+.lo {
+    color: #0a72c3;
+    border: #1b32e2 2px solid;
+}
+
+.au {
+    display: flex;
+}
+
+.pic {
+    background-image: url(imgs/lo.jpg);
+    width: 100%;
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.pic button {
+    width: 150px;
+    border: none;
+    background-color: #1b6be2;
+    color: #ffffff;
+    font-size: larger;
+}
+
+.pic h1 {
+    color: #ffffff;
+    padding: 80px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.bu {
+    position: absolute;
+    top: 60%;
+    left: 45%;
+    transform: translate(-50%, -50%);
+    height: 30px;
+    width: 100px;
+    border-radius: 5px solid;
+    border-color: #0a72c3;
+    cursor: pointer;
+}
+
+.go2 {
+    background-color: #fff;
+}
+
+.he h1 {
+    height: 100px;
+    margin: 20px;
+    padding: 20px;
+}
+
+.d1,
+.d2 {
+    display: flex;
+    margin: 20px;
+    gap: 50px;
+    padding: 20px;
+}
+
+.learn {
+    background-color: #0095ffdd;
+    color: #ffffff;
+    border: none;
+    height: 25px;
+    width: 80px;
+}
+
+.go {
+    background-color: #fff;
+    padding: 10px;
+}
+
+.up {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.up h1 {
+    padding: 10px;
+}
+
+.up p {
+    font-size: large;
+}
+
+.bi {
+    display: flex;
+    margin: 20px;
+    gap: 50px;
+    /* background-color:gold; */
+    height: 500px;
+    margin-top: 100px;
+}
+
+.b2 {
+    width: 50%;
+    margin-top: 50px;
+}
+
+.b3 {
+    background-image: url(imgs/jk.jpg);
+    background-size: cover;
+    width: 50%;
+    margin: 15px;
+}
+
+
+.m1 {
+    background-color: #fff;
+    margin: 10px;
+}
+
+.m2 {
+    text-align: center;
+    padding: 30px;
+}
+
+.m2 p {
+    font-size: large;
+}
+
+.cards {
+    overflow: hidden;
+    width: 350px;
+    padding: 20px;
+    margin: 10px;
+    border: #000000 1px solid;
+}
+
+.cards-image {
+    width: 350px;
+    height: auto;
+}
+
+
+.cards-title {
+    margin: 10px;
+    font-size: 1.5em;
+}
+
+.pex h2 {
+    align-items: center;
+    text-align: center;
+}
+
+.pex {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.pp1 {
+    text-align: center;
+    margin-top: 40px;
+    font-size: larger;
+    padding: 20px;
+}
+
+.p4 {
+    background-color: #fff;
+    height: 600px;
+
+}
+
+.signup-container {
+    padding: 50px;
+    max-width: 700px;
+    align-items: center;
+    border: #000000 1px solid;
+
+}
+
+.signup-container h2 {
+    padding: 10px;
+    font-style: bold;
+}
+
+.l {
+    display: flex;
+}
+
+.k {
+    display: flex;
+}
+
+.form-row {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    margin-bottom: 15px;
+}
+
+.form-row input {
+    width: 250px;
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #000000;
+    margin: 10px;
+}
+
+.j input {
+    width: 550px;
+}
+
+.form-row input:focus {
+    outline: none;
+}
+
+.submit-btn {
+    width: 150px;
+    padding: 10px;
+    font-size: 16px;
+    color: white;
+    background-color: #007bff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    padding: 40px 0;
+}
+
+.footer-container {
+    width: 90%;
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+.footer-row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.fo {
+    justify-content: space-between;
+    gap: 10px;
+    width: 80px;
+}
+
+.footer-col {
+    flex: 1 1 300px;
+}
+
+.footer-col h3 {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.footer-col p {
+    line-height: 1.8;
+}
+
+.footer-col ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.footer-col ul li {
+    margin-bottom: 10px;
+}
+
+.footer-col ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.footer-col ul li a:hover {
+    text-decoration: underline;
+}
+
+.footer-bottom {
+    text-align: center;
+    margin-top: 40px;
+    border-top: 1px solid #555;
+    padding-top: 25px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-bottom h1 {
+    margin: 0;
+    font-size: 20px;
+}
+
+.social-icons {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.social-icons li {
+    display: inline-block;
+}
+
+.social-icons li a img {
+    width: 24px;
+}
+
+
+/*  */
+
+
+.carousel-inner .carousel-item {
+    height: 100vh !important;
+    margin: 20px;
+}
+
+.banner {
+    height: 100%;
+    background-position: center;
+
+}
+
+.main-menu-logo {
+    position: fixed;
+    top: 0;
+    z-index: 100;
+    width: 100%;
+    background: #cecdcd4f;
+}
+
+.carousel-caption {
+    bottom: 40%;
+    display: block !important;
+}
+
+.carousel-caption h1 {
+    font-size: 100px;
+    letter-spacing: 2px;
+    color: #433a29;
+
+}
+
+.carousel-caption h2 {
+    font-size: 80px;
+    letter-spacing: 2px;
+    color: #2b4748;
+}
+
+.carousel-caption h3 {
+    font-size: 60px;
+    letter-spacing: 2px;
+    color: #30293a;
+}
+
+@media (min-width: 0px) and (max-width: 768px) {
+    .carousel-caption {
+        bottom: 20%;
+        display: block !important;
+    }
+
+    .carousel-caption h1 {
+        font-size: 20px;
+        letter-spacing: 2px;
+    }
+
+    .carousel-caption h2 {
+        font-size: 15px;
+        letter-spacing: 2px;
+    }
+
+    .carousel-caption h3 {
+        font-size: 18px;
+        letter-spacing: 2px;
+    }
+
+}
